@@ -72,5 +72,5 @@ function loadImages() {
     .then(resp => resp.json())
     .then(results => {
       results.message.forEach(image => addImage(image))
-    })
+    });
 }

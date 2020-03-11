@@ -76,5 +76,5 @@ function loadImages() {
 }
 
 function addImage(dogPicUrl) {
-  let container = document.queryElector('#dog-image-container')
+  let container = document.queryElector('#dog-image-container');
 }

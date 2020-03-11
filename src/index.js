@@ -81,3 +81,7 @@ function addImage(dogPicUrl) {
   newImageEl.src = dogPicUrl;
   container.appendChild(newImageEl);
 }
+
+function loadBreedOptions() {
+  const breedUrl = 'https://dog.ceo/api/breeds/list/all'
+}

@@ -65,3 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
   loadImages();
   loadBreedOptions();
 });
+
+function loadImages() {
+  const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+}

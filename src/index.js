@@ -74,3 +74,7 @@ function loadImages() {
       results.message.forEach(image => addImage(image))
     });
 }
+
+function addImage(dogPicUrl) {
+  let container = document.queryElector('#dog-image-container')
+}

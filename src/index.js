@@ -79,4 +79,5 @@ function addImage(dogPicUrl) {
   let container = document.queryElector('#dog-image-container');
   let newImageEl = document.createElement('img');
   newImageEl.src = dogPicUrl;
+  container.appendChild(newImageEl);
 }

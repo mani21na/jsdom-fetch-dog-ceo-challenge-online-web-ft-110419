@@ -130,5 +130,5 @@ function addBreed(breed) {
 }
 
 function updateColor(event) {
-  event.target.style.color = 'palevioletred';
+  event.target.style.color = '#69b9ff';
 }

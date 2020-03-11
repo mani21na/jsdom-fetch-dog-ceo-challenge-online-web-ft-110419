@@ -60,3 +60,7 @@ function textColor() {
 **/
 
 let breeds = [];
+
+document.addEventListener('DOMContentLoaded', function() {
+  
+});
